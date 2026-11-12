@@ -1,8 +1,3 @@
-# PetCare
-
-## YouTube Tutorial
-https://www.youtube.com/watch?v=5N9FsYPsAso
-
 ## Solution Technologies
 
 -  Asp.Net Core (.NET 7.0)
@@ -12,10 +7,6 @@ https://www.youtube.com/watch?v=5N9FsYPsAso
 -  Entity Framework Core
 
 ## Solution Architecture
-
-<img src="./banner.png" />
-
-## We will learn these topics together
 
 ### On Backend project
 
