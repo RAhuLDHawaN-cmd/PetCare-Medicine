@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+   -webkit-tap-highlight-color: transparent;
+}
+html { min-width: 320px; background: #fffefa; }
+body { color: #26352d; background: #fffefa; }
+a { color: inherit; }
+a {
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+}
+.wrapper {
+   width: 100%;
+   min-height: calc(100vh - 76px);
+   padding: 38px max(5vw, 20px) 56px;
+}
+button, input { font: inherit; }
+@media (max-width: 600px) { .wrapper { padding: 25px 20px 42px; } }

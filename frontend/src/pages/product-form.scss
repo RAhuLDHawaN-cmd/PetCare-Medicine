@@ -1,0 +1,32 @@
+.add-product,
+.edit-product {
+   width: min(100%, 560px);
+   margin: 5px auto;
+   padding: clamp(24px, 5vw, 42px);
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   gap: 18px;
+   border: 1px solid #eceee7;
+   border-radius: 22px;
+   background: #fff;
+   box-shadow: 0 12px 34px #3444300b;
+
+   h2 { margin-bottom: 4px; color: #2c3b31; font: 500 30px Georgia, serif; }
+
+   > div:last-child { display: flex; gap: 12px; padding-top: 4px; }
+   > div:last-child .MuiButton-root { min-width: 100px; border-radius: 999px; text-transform: none; }
+   > div:last-child .MuiButton-root:first-child { color: #fff; border-color: #627c57; background: #627c57; }
+   > div:last-child .MuiButton-root:first-child:hover { background: #4d6744; }
+}
+
+.image-upload-field { display: flex; flex-direction: column; gap: 8px; }
+.image-upload-label { display: flex; align-items: center; gap: 8px; color: #58665b; font-size: 13px; font-weight: 700; }
+.image-upload-label small { color: #9aa39b; font-size: 11px; font-weight: 400; }
+.image-upload-control { min-height: 96px; padding: 12px; display: flex; align-items: center; gap: 15px; cursor: pointer; border: 1px dashed #c9d2c4; border-radius: 13px; background: #fbfcf8; transition: border-color .15s, background .15s; }
+.image-upload-control:hover { border-color: #718967; background: #f6f8f1; }
+.image-upload-control img,.image-upload-placeholder { width: 70px; height: 70px; flex: 0 0 70px; display: grid; place-items: center; border-radius: 10px; object-fit: cover; background: #edf1e8; color: #718967; font-size: 32px; }
+.image-upload-copy { min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.image-upload-copy strong { overflow: hidden; color: #39483d; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.image-upload-copy small { color: #929c93; font-size: 11px; }
+.image-upload-control input { display: none; }

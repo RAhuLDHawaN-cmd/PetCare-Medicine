@@ -1,0 +1,40 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/secrets.json
+**/secrets.*.json
+**/appsettings.*.local.json
+
+# Node / React
+**/node_modules/
+**/build/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+
+# .NET build output and IDE files
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+
+# Local databases and generated uploads. Keep the five seeded product images.
+backend/**/data-mssql/
+backend/backend/wwwroot/uploads/*
+!backend/backend/wwwroot/uploads/kong-classic.jpg
+!backend/backend/wwwroot/uploads/kong-extreme.png
+!backend/backend/wwwroot/uploads/kong-wobbler.jpg
+!backend/backend/wwwroot/uploads/kong-scratcher.jpg
+!backend/backend/wwwroot/uploads/kong-zoomgroom.jpg
+
+# OS files
+.DS_Store
+Thumbs.db

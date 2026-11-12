@@ -1,0 +1,16 @@
+.home { max-width: 1180px; margin: 0 auto; color: #26352d; }
+.hero { min-height: 490px; padding: 48px 6% 54px; background: #f2f4e9; border-radius: 28px; display: grid; grid-template-columns: 1fr 1fr; align-items: center; overflow: hidden; }
+.hero-copy { max-width: 480px; position: relative; z-index: 1; }
+.eyebrow { display: inline-flex; align-items: center; gap: 8px; color: #66805d; font-size: 12px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.hero h1 { margin: 20px 0 16px; color: #26352d; font-family: Georgia, serif; font-size: clamp(54px, 6.3vw, 82px); font-weight: 500; line-height: .98; letter-spacing: -.055em; }
+.hero h1 em { color: #df805f; font-weight: 500; }
+.hero-copy > p { max-width: 420px; margin: 0 0 25px; color: #66736b; font-size: 16px; line-height: 1.75; }
+.hero .hero-button { padding: 12px 22px; border-radius: 999px; background: #627c57; box-shadow: none; font-weight: 700; text-transform: none; }
+.hero .hero-button:hover { background: #4d6744; box-shadow: none; }
+.hero-note { margin-top: 23px; color: #758078; font-size: 12px; }.hero-note span { margin-right: 7px; color: #df805f; font-size: 17px; }
+.hero-art { height: 365px; position: relative; display: grid; place-items: center; }
+.photo-halo { position: absolute; width: 340px; height: 340px; border-radius: 50%; background: #e0e8d4; }
+.hero-art img { position: relative; width: min(330px, 82%); height: 330px; object-fit: cover; border-radius: 48% 48% 42% 42%; box-shadow: 0 20px 55px #39432d25; transform: rotate(3deg); }
+.floating-note { position: absolute; right: 0; bottom: 18px; display: flex; align-items: center; gap: 11px; padding: 13px 18px; border-radius: 16px; background: #fffdf8; box-shadow: 0 10px 30px #303f3020; }.floating-note > span { color: #df805f; font-size: 25px; }.floating-note strong,.floating-note small { display: block; }.floating-note strong { font-size: 13px; }.floating-note small { margin-top: 3px; color: #849087; font-size: 11px; }
+.art-sparkle { position: absolute; color: #e18b6c; }.sparkle-one { top: 28px; right: 15%; font-size: 28px; }.sparkle-two { left: 4%; bottom: 52px; font-size: 21px; color: #7e9872; }
+@media (max-width: 700px) { .hero { grid-template-columns: 1fr; padding: 38px 8% 25px; }.hero-art { height: 290px; margin-top: 10px; }.photo-halo { width: 260px; height: 260px; }.hero-art img { width: 250px; height: 250px; }.floating-note { right: 2%; bottom: 4px; } }
