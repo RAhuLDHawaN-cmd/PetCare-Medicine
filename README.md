@@ -1,4 +1,4 @@
-# Pet Store
+# PetCare
 
 ## YouTube Tutorial
 https://www.youtube.com/watch?v=5N9FsYPsAso
